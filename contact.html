@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>TechRovar</title>
+
+	<meta charset="utf-8" />
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!-- new fontaesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel='shortcut icon' type='image/x-icon' href='./img/c_logo.png' />
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jPushMenu.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+
+	<script type="text/javascript">
+		$(window).load(function () {
+			$(".loader").fadeOut("slow");
+		})
+	</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+	<div class="loader"></div>
+
+	<style>
+		.loader {
+			position: fixed;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			z-index: 9999;
+			background: url('./img/LOgo_gif.gif') 50% 50% no-repeat rgb(249, 249, 249);
+		}
+	</style>
+
+	<header>
+
+		<div class="top-heading">
+			<div class="container">
+				<div class="contact-info pull-left">
+					<a href="./contact.html" class="tops"><span class="fa fa-phone"></span>+91 8019357139</a>
+					<div>
+						<a href="./contact.html" class="tops"><span
+								class="fa-solid fa-envelope tops"></span>info@techrovar.org</a>
+					</div>
+				</div>
+				<ul class="social-icons pull-right">
+					<ul class="social-icons pull-right">
+						<li><a href=""><i class="social fa-brands fa-facebook"></i></a></li>
+						<li><a href=""><i class="social fa-brands fa-instagram"></i></a></li>
+						<li><a href=""><i class="social fa-brands fa-linkedin"></i></a></li>
+						<li><a href="https://wa.me/+91?text=Hello"><i class="social fa-brands fa-whatsapp"></i></a></li>
+					</ul>
+			</div>
+		</div>
+
+		<nav class="navbar-default navbar-static-top" id="navbar-default" style="border-radius:0;">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" id="name" href="./index.html"><img src="./img/TechRovar.png"
+							class="main_logo"></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left pull-right"
+					id="bs-example-navbar-collapse-1">
+
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="company.html">Company</a></li>
+						<li><a href="clients.html">Clients</a></li>
+						<li><a href="contact.html"><span>Contact</a></span></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<style>
+			.navbar-default {
+				background: #F5F5F5;
+			}
+
+			.navbar-default .navbar-nav li a {
+				color: #000;
+			}
+
+			.navbar-default .navbar-toggle .icon-bar {
+				background: #000;
+			}
+
+			.navbar-nav {
+				float: right;
+			}
+
+			@media screen and (max-width: 768px) {
+				.navbar-nav {
+					float: left;
+				}
+			}
+		</style>
+
+
+	</header>
+
+
+	<div class="container">
+		<ul class="breadcrumb">
+			<li><a href="index.html">Home</a> <span class="divider">/</span></li>
+			<li class="active">Contact</li>
+		</ul>
+	</div>
+	<!-- style="-webkit-filter: grayscale(100%); filter: grayscale(100%);" -->
+	<div>
+		<iframe
+			src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3839.066444857027!2d78.05383827513019!3d15.800450084840756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDQ4JzAxLjYiTiA3OMKwMDMnMjMuMSJF!5e0!3m2!1sen!2sin!4v1710326756857!5m2!1sen!2sin"
+			width="100%" height="400" style="border: 1px;;" allowfullscreen="" loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+
+	<div class="contact">
+		<div class="container">
+			<div class="col-md-8">
+				<div class="contact-form">
+					<h3>Contact Form</h3>
+
+					<form action="#" name="submit-to-google-sheet" method="POST" class="for" id="submitForm">
+						<input id="Name" name="Name" type="text" placeholder="Name" required>
+						<span id="nameError" class=""></span>
+
+						<input type="email" id="email" name="Email"  placeholder="Email" required>
+						
+
+						<input id="phone" name="Phone Number" type="text" placeholder="Phone Number" pattern="[0-9]{10}" required>
+						
+						<div style=" margin-top:20px; font-family:sans-serif; font-size:large; font-weight:bolder;">
+						    <label class="lists" id="subject" for="Subject" required="">Select any one of this</label>
+                        <select id="subject" name="Subject">
+                          <option value="Internship">Internship</option>
+                          <option value="Training">Training</option>
+                          <option value="Placement">Placement</option>
+                          <option value="Training &amp; placement">Training &amp; placement</option>
+                          <option value="Other">Other</option>
+                        </select>
+
+						</div>
+						<textarea id="message" name="Message" placeholder="Your Message" rows="5" ></textarea>
+						<span id="messageError" class=""></span>
+
+						<button name="submit" id="submit" type="submit" value="submit">Send Message</button>
+					</form>
+
+
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="contact-info_1">
+					<h3>Contact Info</h3>
+
+					<p><strong>Address:</strong> Plot no:82, Apollo Pharmacy Building. 2nd Floor, Venkatadri Nagar,
+						Joharapuram road,Nandyal Checkpost, Kurnool-518002, Andhrapradesh.</p>
+					<p><strong>Mail:</strong> info@techrovar.org</p>
+					<p><strong>Phone:</strong> +91 8019357139</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>TechRovar</h3>
+				<p>Techrovar IT is a new age innovative software services company, providing end-to-end design, development, testing and support activities.
+					 We are working with the clients across the globe in multiple industries.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>About Us</h3>
+				<p>Started by a group of people who are passionate about the technology and determined to add value to large groups across the global. 
+					We believe that technology can bring a positive change in the society and we would like to be part of that initiative.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Contact Info</h3>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home" id="ad"></i>
+							Plot no:82, Apollo Pharmacy Building. 2nd Floor, Venkatadri Nagar, Joharapuram road,Nandyal Checkpost, Kurnool-518002, Andhrapradesh.
+						</p>
+						<p class="fnumber">
+							<i class="fa fa-phone"></i>
+							+91 8019357139
+						</p>
+						<p>
+							<i class="fa fa-envelope-o"></i>
+						    info@techrovar.org
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<div class="copyright-part">
+		<p>Copy rights &copy 2024.TechRovar IT Private Limited.All Rights Reserved</p>
+	</div>
+
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.toggle-menu').jPushMenu({
+				closeOnClickLink: false
+			});
+			$('.dropdown-toggle').dropdown();
+		});
+	</script>
+
+
+	<script type="text/javascript">
+		$(function () {
+			$.scrollUp({
+				scrollName: 'scrollUp', // Element ID
+				topDistance: '300', // Distance from top before showing element (px)
+				topSpeed: 600, // Speed back to top (ms)
+				animation: 'fade', // Fade, slide, none
+				animationInSpeed: 200, // Animation in speed (ms)
+				animationOutSpeed: 200, // Animation out speed (ms)
+				activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+				scrollImg: true,
+			});
+		});
+	</script>
+
+
+
+	<!-- Get In Touch -->
+	<script>
+		const scriptURL =
+			'https://script.google.com/macros/s/AKfycbwXJnR5y0Aye7HvdWSDGJeQV6FCgVhnQmfqdgpI9byCeInFkJlvBsOihainwLlrVlbp/exec'
+		const form = document.forms['submit-to-google-sheet']
+
+		form.addEventListener('submit', e => {
+			e.preventDefault();
+
+
+			fetch(scriptURL, {
+				method: 'POST',
+				body: new FormData(form)
+			})
+			var response = window.confirm("If you want to Submit Details, Click 'Ok' or else Click 'Cancel'")
+			if (response) {
+				window.alert("Thank You for Reaching Us..!");
+				document.getElementById('email').value = "";
+				document.getElementById('phone').value = "";
+				document.getElementById('subject').value = "";
+				document.getElementById('message').value = "";
+				document.getElementById('Name').value = "";
+			}
+
+		})
+	</script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TechRovar</title>
+
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- new fontaesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="shortcut icon" type="image/x-icon" href="./img/c_logo.png" />
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+
+    <script type="text/javascript">
+      $(window).load(function () {
+        $(".loader").fadeOut("slow");
+      });
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div class="loader"></div>
+
+    <style>
+      .loader {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: url("./img/LOgo_gif.gif") 50% 50% no-repeat
+          rgb(249, 249, 249);
+      }
+    </style>
+
+    <header>
+      <div class="top-heading">
+        <div class="container">
+          <div class="contact-info pull-left">
+            <a href="./contact.html" class="tops"
+              ><span class="fa fa-phone"></span>+91 8019357139</a
+            >
+            <div>
+              <a href="./contact.html" class="tops"
+                ><span class="fa-solid fa-envelope tops"></span
+                >info@techrovar.org</a
+              >
+            </div>
+          </div>
+
+          <ul class="social-icons pull-right">
+            <li>
+              <a href=""><i class="social fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="social fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="social fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://wa.me/+91?text=Hello"
+                ><i class="social fa-brands fa-whatsapp"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <nav
+        class="navbar-default navbar-static-top"
+        id="navbar-default"
+        style="border-radius: 0"
+      >
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle toggle-menu menu-left push-body"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+            >
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" id="name" href="./index.html"
+              ><img src="./img/TechRovar.png" class="main_logo"
+            /></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left pull-right"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul class="nav navbar-nav pull-right">
+              <li><a href="index.html">Home</a></li>
+              <li>
+                <a href="services.html"><span>Services</span></a>
+              </li>
+              <li><a href="company.html">Company</a></li>
+              <li><a href="clients.html">Clients</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <style>
+        .navbar-default {
+          background: #f5f5f5;
+        }
+
+        .navbar-default .navbar-nav li a {
+          color: #000;
+        }
+
+        .navbar-default .navbar-toggle .icon-bar {
+          background: #000;
+        }
+
+        .navbar-nav {
+          float: right;
+        }
+
+        @media screen and (max-width: 768px) {
+          .navbar-nav {
+            float: left;
+          }
+        }
+      </style>
+    </header>
+
+    <div class="container">
+      <ul class="breadcrumb">
+        <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+        <li class="active">Services</li>
+      </ul>
+    </div>
+
+    <div class="pricing-table">
+      <div class="container">
+        <div class="table">
+          <div class="col-md-4 col-sm-4">
+            <div class="block">
+              <div class="cost">
+                <h3 class="head">Product Design</h3>
+                <br /><br /><br />
+                <p class="para">
+                  " Our product design philosophy centers around creating
+                  intuitive, user-friendly, and innovative solutions. Our
+                  designs are visually appealing, with a clean and modern
+                  interface that promotes ease of navigation and
+                  efficient workflow "
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4">
+            <div class="block">
+              <div class="cost">
+                <h3 class="head">Development</h3>
+                <br /><br />
+                <p class="para">
+                  " Our dedicated team of experts collaborates to develop
+                  groundbreaking solutions that cater to industries and address
+                  real-world challenges. Our unwavering commitment to quality
+                  and relentless pursuit of excellence has solidified our
+                  reputation as a leading force in software industry "
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4">
+            <div class="block">
+              <div class="cost">
+                <h3 class="head">Cyber Security</h3>
+                <br /><br /><br>
+                <p class="para">
+                  " Our dedicated team prioritizing cybersecurity is crucial to
+                  protect your business, customers, and reputation. By investing
+                  in cybersecurity, you can ensure the trust and confidence of
+                  your clients while maintaining a strong competitive edge in
+                  the industry "
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="featured-list">
+      <div class="container">
+        <div class="col-md-4 col-sm-6">
+          <div class="section">
+            <div class="icon-container">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3>Web Development</h3>
+
+            <p>
+              We offer top-notch Web design services tailored to meet your
+              unique business needs.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="section">
+            <div class="icon-container">
+              <i class="fa-brands fa-android"></i>
+            </div>
+            <h3>Android Development</h3>
+
+            <p>
+              Our team of skilled developers and designers crafts user-friendly,
+              engaging, and feature-rich applications tailored to your brand's
+              vision and target audience.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="section">
+            <div class="icon-container">
+              <i class="fas fa-bezier-curve"></i>
+            </div>
+            <h3>UI/UX Design</h3>
+
+            <p>
+              Our software company offers top-notch UI/UX services, designed to
+              enhance your digital products and provide exceptional user
+              experiences.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div class="section">
+            <div class="icon-container">
+              <i class="fa-brands fa-unity"></i>
+            </div>
+            <h3>QA & Testing</h3>
+
+            <p>
+              We pride ourselves on offering comprehensive and reliable software
+              testing services to ensure the highest quality of your products.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="section">
+            <div class="icon-container">
+              <i class="fa-brands fa-dev"></i>
+            </div>
+            <h3>Devops</h3>
+
+            <p>
+              We offer comprehensive DevOps services to streamline your software
+              development, delivery, and operations.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="section">
+            <div class="icon-container">
+              <i class="fa-solid fa-life-ring"></i>
+            </div>
+            <h3>Application Support</h3>
+
+            <p>
+              We help you to accelerate your digital transformation by building
+              innovative custom solutions that match your unique business needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="col-md-4 col-sm-6">
+          <h3>TechRovar</h3>
+          <p>
+            Techrovar IT is a new age innovative software services company,
+            providing end-to-end design, development, testing and support
+            activities. We are working with the clients across the globe in
+            multiple industries.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <h3>About Us</h3>
+          <p>
+            Started by a group of people who are passionate about the technology
+            and determined to add value to large groups across the global. We
+            believe that technology can bring a positive change in the society
+            and we would like to be part of that initiative.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <h3>Contact Info</h3>
+          <ul class="contact-list">
+            <li>
+              <p>
+                <i class="fa fa-home" id="ad"></i>
+                Plot no:82, Apollo Pharmacy Building. 2nd Floor, Venkatadri
+                Nagar, Joharapuram road,Nandyal Checkpost, Kurnool-518002,
+                Andhrapradesh.
+              </p>
+              <p class="fnumber">
+                <i class="fa fa-phone"></i>
+                +91 8019357139
+              </p>
+              <p>
+                <i class="fa fa-envelope-o"></i>
+                info@techrovar.org
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright-part">
+      <p>
+        Copy rights &copy 2024.TechRovar IT Private Limited.All Rights Reserved
+      </p>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".toggle-menu").jPushMenu({ closeOnClickLink: false });
+        $(".dropdown-toggle").dropdown();
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(function () {
+        $.scrollUp({
+          scrollName: "scrollUp", // Element ID
+          topDistance: "300", // Distance from top before showing element (px)
+          topSpeed: 600, // Speed back to top (ms)
+          animation: "fade", // Fade, slide, none
+          animationInSpeed: 200, // Animation in speed (ms)
+          animationOutSpeed: 200, // Animation out speed (ms)
+          activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+          scrollImg: true,
+        });
+      });
+    </script>
+  </body>
+</html>

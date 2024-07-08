@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>TechRovar</title>
+    
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+	<!-- new fontaesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	
+	<link rel='shortcut icon' type='image/x-icon' href='./img/c_logo.png' />
+	
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    
+    <script type="text/javascript">
+		$(window).load(function() {
+			$(".loader").fadeOut(2000);
+		})
+	</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+	<div class="loader"></div>
+	
+	<style>
+	
+	.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('./img/LOgo_gif.gif') 50% 50% no-repeat rgb(249,249,249);
+	}
+	
+	</style>
+	
+	<header>
+	
+		<div class="top-heading">
+			<div class="container">
+				<div class="contact-info pull-left">
+					<a href="./contact.html" class="tops"><span class="fa fa-phone"></span>+91 8019357139</a>
+					<div>
+						<a href="./contact.html" class="tops"><span class="fa-solid fa-envelope tops"></span>info@techrovar.org</a>
+					</div>
+				</div>
+				<ul class="social-icons pull-right">
+					
+						<li><a href="https://www.facebook.com/profile.php?id=61559961526805"><i class="social fa-brands fa-facebook"></i></a></li>
+						<li><a href="https://www.instagram.com/techrovar/"><i class="social fa-brands fa-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/techrovarit-pvt-ltd/"><i class="social fa-brands fa-linkedin"></i></a></li>
+						<li><a href="https://wa.me/+918019357139?text=Hello Sir/ Ma'am"><i class="social fa-brands fa-whatsapp"></i></a></li>
+						
+					</ul>
+				</ul>
+			</div>
+		</div>
+
+		<nav class="navbar-default navbar-static-top" id="navbar-default" style="border-radius:0;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+					
+                        <a class="navbar-brand" id="name" href="./index.html"><img src="./img/TechRovar.png" class="main_logo"></a>
+						
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left pull-right" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="clients.html">Clients</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <style>
+        
+        	.navbar-default {
+        		background: #F5F5F5;
+        	}
+        
+        	.navbar-default .navbar-nav li a {
+        		color: #000;
+        	}
+        	
+        	.navbar-default .navbar-toggle .icon-bar {
+				background: #000;
+			}
+			
+			.navbar-nav {
+				float: right;
+			}
+			
+			@media screen and (max-width: 768px) {
+			.navbar-nav {
+				float: left;
+			}
+			}
+			
+        
+        </style>
+
+        
+    </header>
+    
+    
+    <div class="banner">
+    	<div class="opacity_overlay">
+    		<div class="info">
+    			<h2>Welcome to Our Innovative Software Solutions: <br><br> " Fostering Innovations and leading change ".</h2>
+    			
+    			<h3>We believe everyone deserves</h3>
+    			<h3>The best service</h3>
+    		</div>
+    		
+    		<div class="secondary_layer">
+    			<!--<div class="container">-->
+    				
+    			<!--	<div class="col-md-4 col-sm-6 pull-right">-->
+    			<!--		<a href="./contact.html" class="btn"><button type="button">Get Started</button></a>-->
+    			<!--		<a href="./company.html" class="btn"><button type="button">Learn More</button></a>-->
+    			<!--	</div>-->
+    			<!--</div>-->
+    		</div>
+    		
+    	</div>
+    </div>
+    
+    
+    <div class="services">
+    	<div class="container">
+    		<h2>We Provides <span id="rotate"></span> and Meets The Client Needs </h2>
+    		
+			<div class="overview">
+			
+				<div class="col-md-4 col-sm-4 col-lg-4">
+					<div class="feature-box">
+						<img src="./img/lee-campbell-DtDlVpy-vvQ-unsplash.jpg" class="img-responsive">				
+					</div>
+					
+					<div class="feature-body">			
+						<h4>Product Development</h4>
+						<p>We have a lot of expertise in offering our consumers digital items across a variety of platforms.
+							 Seamless collaboration between cross-functional teams.</p>
+					</div>
+				
+				</div>
+				
+				<div class="col-md-4 col-sm-4 col-lg-4">
+					<div class="feature-box">
+						<img src="img/campaign-creators-gMsnXqILjp4-unsplash.jpg" class="img-responsive">				
+					</div>
+					
+					<div class="feature-body">			
+						<h4>IT Consulting</h4>
+						<p>As a leading IT consulting firm for software companies,
+							 we specialize in providing comprehensive solutions to help businesses thrive in today's fast-paced digital landscape.</p>
+					</div>
+				
+				</div>
+				
+				<div class="col-md-4 col-sm-4 col-lg-4">
+					<div class="feature-box">
+						<img src="./img/windows-p74ndnYWRY4-unsplash.jpg" class="img-responsive">				
+					</div>
+					
+					<div class="feature-body">			
+						<h4>IT Staffing</h4>
+						<p>Our Company provides top-notch IT Staff Augmentation Services that provide vital skill sets for your businesses or IT goals,
+							 helping to close the skills gap between demand and supply </p>
+					</div>
+				
+				</div>
+
+			</div>
+    	</div>
+    </div>
+    
+	<div class="information">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4 col-md-4 col-sm-0 counter-item">	
+					<h3 class="counter-number" data-from="1" data-to="5" data-speed="1000"></h3>
+					<span class="counter-text">CLIENTS</span>
+            	</div> 
+            	  
+            	<div class="col-lg-4 col-md-4 col-sm-0 counter-item">	
+					<h3 class="counter-number" data-from="1" data-to="8" data-speed="1500"></h3>
+					<span class="counter-text">PROJECTS</span>
+            	</div> 
+            	<div class="col-lg-4 col-md-4 col-sm-0 counter-item">	
+					<h3 class="counter-number" data-from="1" data-to="8" data-speed="1500"></h3>
+					<span class="counter-text">ON GOING PROJECTS</span>
+            	</div> 
+             	
+            </div>
+		</div>
+	</div>    
+	
+	
+	<div class="projects">
+		<div class="container">
+		
+			<h3>Projects</h3>
+			<hr>
+			
+			<div class="news">
+			
+				<div class="date">
+					<h4>2023</h4>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5><span class="fa fa-desktop"></span>Designed a new website</h5>
+									<p>We Designed a Website for HMS Or Hospital Management System</p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-6 section-right">
+						<div class="article">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5><span class="fa fa-credit-card"></span>Invested in a new start up</h5>
+									<p>Also We are looking to emerging basic level of startup to build and develop the company </p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-md-offset-1 section-left">
+						<div class="article">
+							<div class="wrap">
+							
+								<div class="heading">
+									<h5><span class="fa-solid fa-mobile-screen-button"></span>Created our own app</h5>
+									<p>And Our Company developing the high level software module, This project will coming soon</p>
+								</div>
+						
+							
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				<div class="button">
+					<a class="btn">Our Journey</a>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<div class="clients">
+		<div class="container">
+        	<div class="row">
+            	<div class="col-md-12">
+                	<div class="carousel slide clients-carousel" id="clients-slider">
+                    	<div class="carousel-inner">
+                        	<div class="item active">
+                            	<div class="row">
+                                	<div class="col-md-3 col-sm-3 col-xs-6 ghsl">
+                                    	<a class="thumbnail" href="https://www.ghsltechnologies.com/index">
+                                        	<img src="./Clients/GHSL.png" alt="GHSL Logo" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="https://cloudconnect.net">
+                                        	<img src="./Clients/CloudConnect_logoR-wh.png" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="https://www.rainbowdesigns.co.uk">
+                                        	<img src="./Clients/Rainbow.png" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="http://aadvisolutions.com">
+                                        	<img src="./Clients/Aadvi.png" alt="" />
+                                    	</a>
+                                	</div>
+                            	</div>
+                        	</div>
+                        	<div class="item">
+                            	<div class="row">
+                                	<div class="col-md-3 col-sm-3 col-xs-6 ghsl">
+                                    	<a class="thumbnail" href="https://www.ghsltechnologies.com/index">
+                                        	<img src="./Clients/GHSL.png" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="https://cloudconnect.net">
+                                        	<img src="./Clients/CloudConnect_logoR-wh.png" alt="" />
+                                    	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="https://www.rainbowdesigns.co.uk">
+                                        	<img src="./Clients/Rainbow.png" alt="" />
+                                   	 	</a>
+                                	</div>
+                                	<div class="col-md-3 col-sm-3 col-xs-6">
+                                    	<a class="thumbnail" href="http://aadvisolutions.com">
+                                        	<img src="./Clients/Aadvi.png" alt="" />
+                                    	</a>
+                                	</div>
+                            	</div>
+                        	</div>
+                    	</div>
+                	</div>
+            	</div>
+        	</div>
+        </div>
+	</div>
+	
+	
+	<div class="more-information">
+		<div class="container">
+			<div class="col-md-6">
+				<div class="sides">
+					<h4>Why Choose Us</h4>
+					<p>At our  company, we stand out as your ideal partner for innovative solutions and exceptional service. 
+						We prioritize customer satisfaction, ensuring our cutting-edge software caters to your unique needs.
+						 Our team of dedicated professionals brings years of experience and expertise to the table,
+						  consistently delivering high-quality, reliable products.By choosing us,
+						  you not only gain access to top-notch technology but also become part of a community that values collaboration, growth, and success.
+						 Experience the difference with us your trusted software companion.</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="sides">
+					<h4>What We Will Do</h4>
+					<p>We are dedicated to providing comprehensive services that cater to the diverse needs of our clients.
+						 Our offerings include product development, IT consulting, and IT staffing. 
+						 Through product development, we help businesses bring innovative and high-quality software solutions to life,
+						  tailored to their specific requirements.
+						   Our IT consulting services offer expert guidance and strategic advice to optimize your organization's technology infrastructure and processes.
+						   Together, these services form a comprehensive suite that supports your software company's growth and success.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>TechRovar</h3>
+				<p>Techrovar IT is a new age innovative software services company, providing end-to-end design, development, testing and support activities.
+					 We are working with the clients across the globe in multiple industries.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>About Us</h3>
+				<p>Started by a group of people who are passionate about the technology and determined to add value to large groups across the global. 
+					We believe that technology can bring a positive change in the society and we would like to be part of that initiative.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Contact Info</h3>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home" id="ad"></i>
+							Plot no:82, Apollo Pharmacy Building. 2nd Floor, Venkatadri Nagar, Joharapuram road,Nandyal Checkpost, Kurnool-518002, Andhrapradesh.
+						</p>
+						<p class="fnumber">
+							<i class="fa fa-phone"></i>
+							+91 8019357139
+						</p>
+						<p>
+							<i class="fa fa-envelope-o"></i>
+						    info@techrovar.org
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="copyright-part">
+		<p>Copy rights &copy 2024.TechRovar IT Private Limited.All Rights Reserved</p>
+	</div>
+    
+    
+    <script type="text/javascript">
+    
+      $(document).ready(function(){
+        $('.toggle-menu').jPushMenu({closeOnClickLink: false});
+        $('.dropdown-toggle').dropdown();
+      });
+      
+    </script>
+    
+    <script type="text/javascript">
+    
+    	var terms = ["Designing", "Development", " Data Security"];
+
+		function rotateTerm() {
+  			var ct = $("#rotate").data("term") || 0;
+  			$("#rotate").data("term", ct == terms.length -1 ? 0 : ct + 1).text(terms[ct]).fadeIn()
+              	.delay(1000).fadeOut(200, rotateTerm);
+		}
+		$(rotateTerm);
+
+    </script>
+
+	<!-- subscrition alert -->
+	<!-- <script type="text/javascript">
+		
+			function form_subscribe() {
+			  var body = document.getElementById("form_input").value.trim();
+			  if (body === '') {
+				alert("Body is empty!");
+				return true;
+			  } else {
+				alert("Success!");
+				return false;
+			  }
+			}
+	</script> -->
+	
+
+    
+	<script type="text/javascript">
+
+  	jQuery('.counter-item').appear(function() {
+    	jQuery('.counter-number').countTo();
+    	jQuery(this).addClass('funcionando');
+   	 	console.log('funcionando');
+  	});
+  
+	</script>
+	
+    <script type="text/javascript">
+    
+        $(document).ready(function () {
+            $("#clients-slider").carousel({
+                interval: 2000 //TIME IN MILLI SECONDS
+            });
+        });
+        
+    </script>
+    
+    
+    <script type="text/javascript">
+    
+    $(function () {
+  		$.scrollUp({
+    		scrollName: 'scrollUp', // Element ID
+    		topDistance: '300', // Distance from top before showing element (px)
+    		topSpeed: 600, // Speed back to top (ms)
+    		animation: 'fade', // Fade, slide, none
+    		animationInSpeed: 200, // Animation in speed (ms)
+    		animationOutSpeed: 200, // Animation out speed (ms)
+    		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+    		scrollImg: true,
+  		});
+	});
+    
+    </script>
+    
+
+</body>
+
+</html>
